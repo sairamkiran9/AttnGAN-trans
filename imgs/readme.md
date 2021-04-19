@@ -1,1 +1,1 @@
-Images folder
+This is Results and Architecture Images folder
