@@ -40,7 +40,7 @@ Soon, the complete work will be updated in this repo. --->
         <img class = "myImg2" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A5.png" width="800px">
         <h5>Fig.2: A Transformer architecture with L encoder blocks and L decoder blocks, along with the encoder block components.</h5>
 <br>
-   <p> &ensp;Transformers uses the attention-mechanism which determines the essential parts of the sequence 
+   <p>Transformers uses the attention-mechanism which determines the essential parts of the sequence 
     without a chance of losing the information due to external dependencies. The Transformers are made up of 
     an encoder-decoder structure which are stacked up high using attention layers. BERT, GPT2 and XLNet 
     mainly vary each other in the number of attention layer count and embeddings dimensions.
