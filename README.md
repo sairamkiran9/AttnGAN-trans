@@ -44,8 +44,8 @@ Soon, the complete work will be updated in this repo. --->
     without a chance of losing the information due to external dependencies. The Transformers are made up of 
     an encoder-decoder structure which are stacked up high using attention layers. BERT, GPT2 and XLNet 
     mainly vary each other in the number of attention layer count and embeddings dimensions.
- </p>
-    <img class = "myImg3" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A4.png" width="600px">
+ </p>8
+    <img class = "myImg3" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A4.png" width="800px">
     <h5>Fig.3: The proposed AttnGAN<sub>TRANS</sub> architecture for fine-grained text to image generation.</h5>
 <br>
 <h3>Experimental Setup</h3>
@@ -62,7 +62,7 @@ free GPUs provided to test the results. The comparision of model performances is
     <h5>Fig.4: Example results of different TTI generation models trained on CUB dataset</h5>
 <br>
 <h3>Quantitative Results</h3>
-    <img class = "myImg5" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/table.jpg" >
+    <img class = "myImg5" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/table.jpg" width="600px">
     <h5>Table showing the quality comparison of different models with IS and FID scores. Here
         a horizontal line is separating the state-of-the-art methods with
         our proposed models. Blue, purple, red corresponding to the
