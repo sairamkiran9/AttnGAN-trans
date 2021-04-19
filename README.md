@@ -34,11 +34,11 @@ Soon, the complete work will be updated in this repo.
     from the word2vec followed by RNNs. In our approach we introduced Transformer models in between word2vec and RNNs
     for better semantics of text-image. We compared this approach using BERT, GPT2 and XLNet over AttnGAN model. 
     For the comparision of quantitative metrics, we used inception Score (IS) and Frechet inception distance (FID). </p> 
-    
-        <img class = "myImg1" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A1.png"  width="600px">
-        <h5>Fig.1: Transformer infused text encoder model.</h5>
+   
+   <img class = "myImg1" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A1.png"  width="600px">
+   <h5>Fig.1: Transformer infused text encoder model.</h5>
 <br>
-        <img class = "myImg2" src="{{ url_for('static', filename='imgs/A5.png') }}" width="800px">
+        <img class = "myImg2" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A5.png" width="800px">
         <h5>Fig.2: A Transformer architecture with L encoder blocks and L decoder blocks, along with the encoder block components.</h5>
 <br>
    <p> &ensp;Transformers uses the attention-mechanism which determines the essential parts of the sequence 
@@ -105,16 +105,11 @@ GPT3 and GAN architectures like DF-GAN, DMGAN for TTI generation </p>
 
     
   
-    <div class="container-footer">
-      © 2021 Copyright:
-      <a class="text-dark" href="#">NoOne</a>
-    </div>
-    
+<div class="container-footer">
+  © 2021 Copyright:
+  <a class="text-dark" href="#">NoOne</a>
+</div>
+
   
   </footer>
   <!-- Footer -->  
-    
-    
-
-
-{% endblock content %}
