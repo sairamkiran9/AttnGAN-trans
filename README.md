@@ -3,8 +3,6 @@ In this work, we implement a unique deep learning design and GAN formulation to 
 
 Soon, the complete work will be updated in this repo.
 
-{% extends "layout.html" %}
-{% block content %}
 
 <h1> Transformer Models for Enhancing AttnGAN based Text to Image
     Generation </h1>
@@ -37,7 +35,7 @@ Soon, the complete work will be updated in this repo.
     for better semantics of text-image. We compared this approach using BERT, GPT2 and XLNet over AttnGAN model. 
     For the comparision of quantitative metrics, we used inception Score (IS) and Frechet inception distance (FID). </p> 
     
-        <img class = "myImg1" src="{{ url_for('static', filename='imgs/A1.png') }}"  width="600px">
+        <img class = "myImg1" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A1.png"  width="600px">
         <h5>Fig.1: Transformer infused text encoder model.</h5>
 <br>
         <img class = "myImg2" src="{{ url_for('static', filename='imgs/A5.png') }}" width="800px">
@@ -48,7 +46,7 @@ Soon, the complete work will be updated in this repo.
     an encoder-decoder structure which are stacked up high using attention layers. BERT, GPT2 and XLNet 
     mainly vary each other in the number of attention layer count and embeddings dimensions.
  </p>
-    <img class = "myImg3" src="{{ url_for('static', filename='imgs/A4.png') }}" width="600px">
+    <img class = "myImg3" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A4.png" width="600px">
     <h5>Fig.3: The proposed AttnGAN<sub>TRANS</sub> architecture for fine-grained text to image generation.</h5>
 <br>
 <h3>Experimental Setup</h3>
@@ -61,21 +59,21 @@ free GPUs provided to test the results. The comparision of model performances is
 </p>
 <br>
 <h3>Qualitative Results</h3>
-    <img class = "myImg4" src="{{ url_for('static', filename='imgs/Birds.jpg') }}" >
+    <img class = "myImg4" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/Birds.jpg" >
     <h5>Fig.4: Example results of different TTI generation models trained on CUB dataset</h5>
 <br>
 <h3>Quantitative Results</h3>
-    <img class = "myImg5" src="{{ url_for('static', filename='imgs/table.jpg') }}" >
+    <img class = "myImg5" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/table.jpg" >
     <h5>Table showing the quality comparison of different models with IS and FID scores. Here
         a horizontal line is separating the state-of-the-art methods with
         our proposed models. Blue, purple, red corresponding to the
         first, second, third top results.</h5>
 <br>
-    <img class = "myImg6" src="{{ url_for('static', filename='imgs/A2.jpeg') }}" width="600px">
+    <img class = "myImg6" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A2.jpeg" width="600px">
     <h5>Fig.5: Inception Score (IS) plot of proposed AttnGANTRANS model, taken over 700 epochs on CUB
         dataset.</h5>
 <br>
-    <img class = "myImg6" src="{{ url_for('static', filename='imgs/A3.jpeg') }}" width="600px">
+    <img class = "myImg6" src="https://github.com/sairamkiran9/AttnGAN-trans/blob/master/imgs/A3.jpeg" width="600px">
     <h5>Fig.6: FID plot of proposed AttnGANTRANS model, taken
         over 700 epochs on CUB dataset.</h5>
 <br>
