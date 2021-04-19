@@ -91,11 +91,10 @@ a promising result for TTI generation. In future, we
 test a combination of Transformers such as DeBERTa,
 GPT3 and GAN architectures like DF-GAN, DMGAN for TTI generation </p>
 
-<br><br>
+
 <p> For more detail approach please do visit our github page 
     <a  class="about-link" href="https://github.com/sairamkiran9/AttnGAN-trans" target="_blank">AttnGAN<sub>TRANS</sub></a><div class=""></div></p>
 
-<h1>Thank You!!</h1>    
 </div>
   <!-- Footer -->
   <footer class="bg-light text-center text-lg-start ">
