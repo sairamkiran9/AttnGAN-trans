@@ -1,5 +1,4 @@
 <h1> AttnGAN<sub>TRANS</sub> </h1>
-<hr>
 
 Implementation of Pytorch for recreating the key results of the TransGAN models in the paper <a href=""> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta and P V Sudeep.<br>
 
