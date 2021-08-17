@@ -88,8 +88,10 @@ If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider cit
 
 **Reference**
 - [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://arxiv.org/abs/1711.10485) [[code]](https://github.com/taoxugit/AttnGAN#dependencies)
+
 - [StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1710.10916) [[code]](https://github.com/hanzhanggit/StackGAN-v2)
 
+- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[code]](https://github.com/huggingface/transformers)
     
     
     
