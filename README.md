@@ -47,7 +47,7 @@ If using Colab, all the dependencies will be available by default.
 <!----
     Remove if this point not necessary.(Source: stackgan)
     If you want to try your own datasets, [here](https://github.com/soumith/ganhacks) are some good tips about how to train GAN. Also, we encourage to try different hyper-parameters and architectures, especially for more complex datasets. 
-----!>
+---->
 
 
 **Pretrained Model**
@@ -72,6 +72,7 @@ If using Colab, all the dependencies will be available by default.
 
 ### Creating an API
 [Evaluation code](eval) for `bird` is configured in this file to generate URL for the API. 
+
 
 ### Citing AttnGAN
 If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider citing:
