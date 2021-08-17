@@ -69,6 +69,8 @@ If using Colab, all the dependencies will be available by default.
 - We compute inception score for models trained on birds using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model).
 - We compute inception score for models trained on coco using [improved-gan/inception_score](https://github.com/openai/improved-gan/tree/master/inception_score).
 
+**Example Results**
+
 
 ### Creating an API
 [Evaluation code](eval) for `bird` is configured in this file to generate URL for the API. 
