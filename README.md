@@ -1,19 +1,19 @@
 <h1> AttnGAN<sub>TRANS</sub> </h1>
 
-Implementation of Pytorch for recreating the key results of the TransGAN models in the paper <a href=""> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta and P V Sudeep.<br>
+Implementation of Pytorch for recreating the key results of the AttnGAN<sub>TRANS</SUB> models in the paper <a href=""> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta and P V Sudeep.<br>
 
 <img src="./imgs/Architecture.png" width="950px">
 
 ### Code Setup
 
 - `bird` is implemented in google colab
-- `coco` is implemented in local machine (NVIDIA Quadro RTX 8000). 
+- `coco` is implemented in our local machine (NVIDIA Quadro RTX 8000). 
 
 ### Dependencies
 
-python 3.6
+- `python 3.6`
 
-Pytorch
+- `Pytorch`
 
 In addition, please add the project folder to PYTHONPATH and `pip install` the following packages while running in local machine:
 - `python-dateutil`
@@ -27,19 +27,18 @@ If using Colab, all the dependencies will be available by default.
 
 **Data**
 
-- bird
-    - Add <a href="https://drive.google.com/drive/folders/1AgN04EmAJTfxQJytlwodogE04-xWfQyi?usp=sharing">data</a> shortcut to your Google directory.
-    - Rest of the file paths will be configured through the colab files.
+- Add our preprocessed metadata for <a href="https://drive.google.com/drive/folders/1AgN04EmAJTfxQJytlwodogE04-xWfQyi?usp=sharing">bird and coco</a> to your directory and save them to `data/`.
+- Download the [birds](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) dataset and extract them to `data/birds/`
+- Download [coco](http://cocodataset.org/#download) dataset and extract the images to `data/coco/`
 
-- coco
-    - Download [coco] :
 
 **Training**
-- Pre-train DAMSM models:
-  - For bird dataset: 
-  - For coco dataset: 
- 
-- Train AttnGAN models:
+
+- Pre-train encoder models:
+  - bird:  
+  - coco:
+
+- Train models:
   - For bird dataset: run <a href=""> this </a> file in colab.
   - For coco dataset: run <a href=""> this </a> file in local machine.
 
@@ -49,8 +48,15 @@ If using Colab, all the dependencies will be available by default.
     If you want to try your own datasets, [here](https://github.com/soumith/ganhacks) are some good tips about how to train GAN. Also, we encourage to try different hyper-parameters and architectures, especially for more complex datasets. 
 ---->
 
+**Pre-trained Encoder Models**
 
-**Pretrained Model**
+- bird: Available in the <a href="https://drive.google.com/drive/folders/1AgN04EmAJTfxQJytlwodogE04-xWfQyi?usp=sharing">data</a> folder with
+       model_name.zip format (bert.zip, gpt2.zip, XLNet.zip).
+       
+- coco: 
+
+
+**Pretrained Models**
 
 - bird
     - AttnGAN<sub>GPT</sub>
@@ -62,7 +68,8 @@ If using Colab, all the dependencies will be available by default.
 
 
 **Sampling**
-
+- For bird dataset: run <a href=""> this </a> file in colab.
+- For coco dataset: run <a href=""> this </a> file in local machine.
 
 **Validation**
 - To generate images for all captions in the validation dataset => save_img.ipynb
@@ -91,11 +98,5 @@ If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider cit
 **Reference**
 - [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://arxiv.org/abs/1711.10485) [[code]](https://github.com/taoxugit/AttnGAN#dependencies)
 
-- [StackGAN++: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1710.10916) [[code]](https://github.com/hanzhanggit/StackGAN-v2)
-
-- [Attention Is All You Need](https://arxiv.org/abs/1706.03762) [[code]](https://github.com/huggingface/transformers)
-    
-    
-    
     
       
