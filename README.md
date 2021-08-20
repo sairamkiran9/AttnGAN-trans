@@ -27,7 +27,7 @@ If using Colab, all the dependencies will be available by default.
 
 **Data**
 
-- Add our preprocessed metadata for <a href="https://drive.google.com/drive/folders/1AgN04EmAJTfxQJytlwodogE04-xWfQyi?usp=sharing">bird and coco</a> to your directory and save them to `data/`.
+- Add our preprocessed metadata of [bird](https://drive.google.com/file/d/1-OtXxsW_hu8bg7jPbzt9hwbmE81DIKLU/view?usp=sharing) and [coco](https://drive.google.com/file/d/1HKVyKXvNm8J6bnGL93jIDzd5GmA5BTD6/view?usp=sharing) to your directory and save them to `data/`.
 - Download the [birds](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) dataset and extract them to `data/birds/`
 - Download [coco](http://cocodataset.org/#download) dataset and extract the images to `data/coco/`
 
@@ -50,31 +50,37 @@ If using Colab, all the dependencies will be available by default.
 
 **Pre-trained Encoder Models**
 
-- bird: Available in the <a href="https://drive.google.com/drive/folders/1AgN04EmAJTfxQJytlwodogE04-xWfQyi?usp=sharing">data</a> folder with
-       model_name.zip format (bert.zip, gpt2.zip, XLNet.zip).
+- bird: 
+    [AttnGAN<sub>GPT</sub>](https://drive.google.com/file/d/1-GBdK5LY9cBeSY9bVCbU3L0-GykZ3X0K/view?usp=sharing), [AttnGAN<sub>BERT</sub>](https://drive.google.com/file/d/1-PkIK2EsFR608FUsquPoUKpfUQ8UJrke/view?usp=sharing), [AttnGAN<sub>XL</sub>](https://drive.google.com/file/d/1k94zpjwBnqArXg_GRHaU_0k8m57vpDQk/view?usp=sharing)
        
 - coco: 
+    [AttnGAN<sub>GPT</sub>](https://drive.google.com/file/d/1rE2wtxVTcvEB8VSXZar-jfVJ-BHMERq1/view?usp=sharing)
 
 
 **Pretrained Models**
 
-- bird
-    - AttnGAN<sub>GPT</sub>
-    - AttnGAN<sub>BERT</sub>
-    - AttnGAN<sub>XL</sub>
+- bird:
+    [AttnGAN<sub>GPT</sub>](https://drive.google.com/file/d/196DOYwKhPoZIloXXVEKyUYnzHzeu7y9o/view?usp=sharing), [AttnGAN<sub>BERT</sub>](https://drive.google.com/file/d/1SycHf1fAsrrKLJNhU1AUZ2FShL6NMvhO/view?usp=sharing), [AttnGAN<sub>XL</sub>](https://drive.google.com/file/d/1dSIyBltDTOHxRzs-TVQOlJvqFXy-Utko/view?usp=sharing)
 
-- coco
-    - AttnGAN<sub>GPT</sub>
-
-
+- coco: 
+    [AttnGAN<sub>GPT</sub>](https://drive.google.com/file/d/1fAWy7I8N2pccKWM0GeoMVobs3RrOL8db/view?usp=sharing)
+ 
+ 
 **Sampling**
-- For bird dataset: run <a href=""> this </a> file in colab.
-- For coco dataset: run <a href=""> this </a> file in local machine.
+
+For sampling we need to change configurations in cfg file.
+
+- To generate images for the pre-extracted embeddings: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = True`
+- To generate images for custom text input: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = False`
+
+<b>Note:</b> If we are using [T2I training](). We need to add custom examples in example_caption.txt file. 
+
 
 **Validation**
-- To generate images for all captions in the validation dataset => save_img.ipynb
+
 - We compute inception score for models trained on birds using [StackGAN-inception-model](https://github.com/hanzhanggit/StackGAN-inception-model).
 - We compute inception score for models trained on coco using [improved-gan/inception_score](https://github.com/openai/improved-gan/tree/master/inception_score).
+
 
 **Example Results**
 
