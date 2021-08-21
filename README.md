@@ -40,9 +40,9 @@ If using Colab, all the dependencies will be available by default.
 - Pre-train encoder models: Use this [bird]() and [coco]() files to train the encoder models.
 - Train models: Use this [bird]() and [coco]() files for training the models.
 - `*.yml` files are example configuration files for training/evaluation our models.
-
-  **Note:** While training `bird` files, we need to make modifications as suggestion in [configuration](./resource/config.md) file. 
 <!----
+  **Note:** While training `bird` files, we need to make modifications as suggestion in [configuration](./resource/config.md) file. 
+
     Remove if this point not necessary.(Source: stackgan)
     If you want to try your own datasets, [here](https://github.com/soumith/ganhacks) are some good tips about how to train GAN. Also, we encourage to try different hyper-parameters and architectures, especially for more complex datasets. 
 ---->
