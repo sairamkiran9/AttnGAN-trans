@@ -2,7 +2,7 @@
 
 Implementation of Pytorch for recreating the key results of the AttnGAN<sub>TRANS</SUB> models in the paper <a href=""> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta and P V Sudeep.<br>
 
-<img src="./imgs/Architecture.png" width="950px">
+<img src="./resource/imgs/Architecture.png" width="950px">
 
 
 ### Code Setup
@@ -41,7 +41,7 @@ If using Colab, all the dependencies will be available by default.
 - Train models: Use this [bird]() and [coco]() files for training the models.
 - `*.yml` files are example configuration files for training/evaluation our models.
 
-  **Note:** While training `bird` files, we need to make modifications as suggestion in [configuration]() file. 
+  **Note:** While training `bird` files, we need to make modifications as suggestion in [configuration](./resource/config.md) file. 
 <!----
     Remove if this point not necessary.(Source: stackgan)
     If you want to try your own datasets, [here](https://github.com/soumith/ganhacks) are some good tips about how to train GAN. Also, we encourage to try different hyper-parameters and architectures, especially for more complex datasets. 
@@ -81,7 +81,7 @@ The below are the example results with generated image and attention maps of eac
 
 This bird has wings that are green and has a yellow belly. | This bird has wings that are black and has large eyes with yellow and blue as the main colors and black as an accent.
 :-------------------------:|:-------------------------:
-![](./imgs/R1.jpeg)  |  ![](./imgs/R2.jpeg)
+![](./resource/imgs/R1.jpeg)  |  ![](./resource/imgs/R2.jpeg)
 
 ### Creating an API
 [Evaluation code](eval) for `bird` is configured in this file to generate URL for the API. 
