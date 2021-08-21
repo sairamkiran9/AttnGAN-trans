@@ -7,7 +7,7 @@ Implementation of Pytorch for recreating the key results of the AttnGAN<sub>TRAN
 
 ### Code Setup
 
-- `bird` is implemented in google colab
+- `bird` is implemented in google colab.
 - `coco` is implemented in our local machine (NVIDIA Quadro RTX 8000). 
 
 
@@ -91,7 +91,7 @@ This bird has wings that are green and has a yellow belly. | This bird has wings
 If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider citing:
 
 ```
-@article{Tao18attngan,
+@article{
   author    = {},
   title     = {},
   Year = {2021},
