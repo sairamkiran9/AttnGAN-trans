@@ -61,8 +61,8 @@ If using Colab, all the dependencies will be available by default.
 ### Sampling
 
 For sampling we need to change configurations in cfg file.
-- To generate images for the pre-extracted embeddings: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = True`
-- To generate images for custom text input: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = False`
+- To generate images for the pre-extracted embeddings: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = True`.
+- To generate images for custom text input: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = False`.
 
   **Note** If we are using [T2I training](). We need to add custom examples in example_caption.txt file. 
 
