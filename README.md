@@ -64,7 +64,7 @@ For sampling we need to change configurations in cfg file.
 - To generate images for the pre-extracted embeddings: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = True`.
 - To generate images for custom text input: Set `cfg.TRAIN.FLAG = False` and `cfg.B_VALIDATION = False`.
 
-  **Note** If we are using [T2I training](). We need to add custom examples in example_caption.txt file. 
+  **Note** If we are using [T2I training](./README.md). We need to add custom examples in example_caption.txt file. 
 
 
 ### Validation
@@ -84,7 +84,7 @@ This bird has wings that are green and has a yellow belly. | This bird has wings
 ![](./resource/imgs/R1.jpeg)  |  ![](./resource/imgs/R2.jpeg)
 
 ### Creating an API
-[Evaluation code](eval) for `bird` is configured in this file to generate URL for the API. 
+[Evaluation code](./README.md) for `bird` is configured in this file to generate URL for the API. 
 
 
 ### Citing AttnGAN
@@ -92,10 +92,10 @@ If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider cit
 
 ```
 @article{
-  author    = {},
-  title     = {},
+  author    = {S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta},
+  title     = {Transformer Models for Enhancing AttnGAN based Text to Image Generation},
   Year = {2021},
-  booktitle = {}
+  booktitle = {{IMAVIS}}
 }
 ```
 
