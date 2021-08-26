@@ -94,7 +94,7 @@ If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider cit
 @article{
   author    = {S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta},
   title     = {Transformer Models for Enhancing AttnGAN based Text to Image Generation},
-  Year = {2021},
+  Year      = {2021},
   booktitle = {{IMAVIS}}
 }
 ```
