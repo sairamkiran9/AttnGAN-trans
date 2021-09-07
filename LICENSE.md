@@ -1,4 +1,4 @@
-MIT License
+Open Software License 3.0
 
 Copyright (c) 2021 Sai Ram Kiran
 
