@@ -1,6 +1,6 @@
 <h1> AttnGAN<sub>TRANS</sub> </h1>
 
-Implementation of Pytorch for recreating the key results of the AttnGAN<sub>TRANS</SUB> models in the paper <a href=""> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta and P V Sudeep.<br>
+Implementation of Pytorch for recreating the key results of the AttnGAN<sub>TRANS</SUB> models in the paper <a href=""> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S. Naveen, M. S. S. Ram Kiran, M. Indupriya, T. V. Manikanta and P. V. Sudeep.<br>
 
 <img src="./resource/imgs/Architecture.png" width="950px">
 
@@ -92,7 +92,7 @@ If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider cit
 
 ```
 @article{
-  author    = {S Naveen, M S S Ram Kiran, M Indupriya, T V Manikanta},
+  author    = {S. Naveen, M. S. S. Ram Kiran, M. Indupriya, T. V. Manikanta, P. V. Sudeep},
   title     = {Transformer Models for Enhancing AttnGAN based Text to Image Generation},
   Year      = {2021},
   booktitle = {{IMAVIS}}
@@ -100,7 +100,7 @@ If you find AttnGAN<sub>TRANS</sub> useful in your research, please consider cit
 ```
 
 **Reference**
-- [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://arxiv.org/abs/1711.10485) [[code]](https://github.com/taoxugit/AttnGAN#dependencies)
+- [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://arxiv.org/abs/1711.10485) [[code]](https://github.com/taoxugit/AttnGAN)
 
     
       
