@@ -1,6 +1,6 @@
 <h1> AttnGAN<sub>TRANS</sub> </h1>
 
-Implementation of Pytorch for recreating the key results of the AttnGAN<sub>TRANS</SUB> models in the paper <a href=""> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S. Naveen, M. S. S. Ram Kiran, M. Indupriya, T. V. Manikanta and P. V. Sudeep.<br>
+Implementation of Pytorch for recreating the key results of the AttnGAN<sub>TRANS</SUB> models in the paper <a href="https://www.sciencedirect.com/science/article/abs/pii/S026288562100189X?via%3Dihub"> Transformer Models for Enhancing AttnGAN based Text to Image Generation </a> by S. Naveen, M. S. S. Ram Kiran, M. Indupriya, T. V. Manikanta and P. V. Sudeep.<br>
 
 <img src="./resource/imgs/Architecture.png" width="950px">
 
